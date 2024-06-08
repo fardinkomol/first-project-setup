@@ -9,7 +9,7 @@ app.use(express.json());
 app.use(cors());
 
 app.get('/', (req: Request, res: Response) => {
-  const a = 10;
+  const a = 'Hello';
   // res.send('Hello World!')
   res.send(a);
 });
