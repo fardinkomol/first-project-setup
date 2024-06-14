@@ -1,5 +1,5 @@
 // Create Interface
-import { Schema, model, connect } from 'mongoose';
+// import { model, connect } from 'mongoose';
 
 export type UserName = {
   firstName: string;
